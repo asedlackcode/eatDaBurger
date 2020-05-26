@@ -1,0 +1,77 @@
+html{
+  background: url(../img/burger-img.jpg) no-repeat center top fixed;     
+  background-size: cover;
+  background-position-y: bottom;
+
+}
+
+h2{
+  text-align: center;
+}
+.title {
+  color: white;
+  text-align: left;
+ 
+  font-size: 50px;
+  font-family: monospace;
+}
+
+
+.container{
+  display: block;
+  float: right;
+}
+
+.opacity-devour{
+  margin: 50px;
+  color: white;
+  border-bottom: white thin solid;
+  padding-bottom: 22px;
+}
+
+.opacity-devoured{
+  margin: 50px;
+  color: white;
+  
+}
+
+.addBurger{
+  margin: 50px;
+  color: white;
+  float: left;
+  width: 32%;
+}
+
+.form-group{
+  text-align: center;
+}
+
+
+
+li {
+  padding: 5px;
+  margin: 15px;
+  width: auto;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+ 
+}
+
+.form-group {
+  margin: 15px;
+}
+
+button{
+  background-color:slateblue;
+    border-radius: 10%;
+    border: 1px solid slateblue;
+    font-family: 'Roboto Slab', serif;
+}
+
