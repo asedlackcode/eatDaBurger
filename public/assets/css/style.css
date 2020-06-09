@@ -39,7 +39,7 @@ h2{
   margin: 50px;
   color: white;
   float: left;
-  width: 32%;
+  /* width: 32%; */
 }
 
 .form-group{
@@ -75,3 +75,17 @@ button{
     font-family: 'Roboto Slab', serif;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: xx-large;
+  }
+  .title {
+    text-align: center;
+  }
+  .addBurger {
+    width: unset;
+  }
+  .opacity-devour {
+    display: flex;
+  }
+}
