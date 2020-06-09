@@ -76,16 +76,16 @@ button{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: xx-large;
+  body,html,* {
+    /* font-size: xx-large; */
   }
   .title {
     text-align: center;
   }
   .addBurger {
-    width: unset;
+    /* width: unset; */
   }
   .opacity-devour {
-    display: flex;
+    /* display: flex; */
   }
 }
